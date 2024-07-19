@@ -1,0 +1,16 @@
+.admin.submitted .container .table_wrapper table tr td .table-btn {
+  font-size: 10px;
+  font-weight: 600;
+  width: 100px;
+  text-align:center;
+  align-items:center;
+  display:flex;
+  justify-content:center;
+}
+
+.admin.submitted .modal.request-revision{
+  display:none;
+}
+.admin.submitted .modal.request-revision.active{
+  display:flex;
+}

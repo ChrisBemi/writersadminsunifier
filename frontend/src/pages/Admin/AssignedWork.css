@@ -1,0 +1,22 @@
+.admin.assign .container table td .description{
+    font-size:12px;
+    font-weight:600;
+}
+.admin.assign .container table thead .description{
+    color:#fff;
+    font-size:12px;
+    font-weight:600;
+}
+.admin.assign .container table .table-btn{
+    font-size:12px;
+}
+.admin.assign .modal.update{
+    display:none;
+    height:100vh;
+}
+.admin.assign .modal.update.active{
+    display:flex;
+}
+.admin.assign .modal.update .input_group{
+    position: relative;
+}

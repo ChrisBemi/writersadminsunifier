@@ -1,0 +1,54 @@
+.account .navbar {
+  background: var(--success-color);
+  position: fixed;
+  width: 100%;
+  right: 0;
+  left: 0;
+  height: 50px;
+  top: 0;
+  z-index: 9;
+}
+.account .navbar .container.flex{
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content:space-between;
+}
+
+.account .navbar .container .menu-icon{
+  flex-basis:40px;
+}
+.account .navbar .container .profile-section.flex{
+  display:flex;
+  align-items:center;
+  flex-basis:70px;
+  justify-content:space-between;
+}
+
+.account .navbar .container .middle-navigation{
+  flex-basis:calc(100% - 144px);
+}
+.account .navbar .container .middle-navigation .description{
+  color:var(--white);
+}
+
+@media(min-width:538px){
+  .account .navbar .container .middle-navigation{
+    display:flex;
+    justify-content:space-between;
+  }
+  .account .navbar .container .middle-navigation.mobile{
+    display:none;
+    justify-content:space-between;
+  }
+}
+@media(max-width:538px){
+  .account .navbar .container .middle-navigation{
+    display:none;
+    justify-content:space-between;
+  }
+  .account .navbar .container .middle-navigation.mobile{
+    display:flex;
+    justify-content:space-between;
+  }
+}

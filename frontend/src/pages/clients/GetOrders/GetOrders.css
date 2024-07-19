@@ -1,0 +1,26 @@
+.orders.account .modal{
+    display:none;
+}
+.orders.account .modal.active{
+    display:flex;
+}
+.orders.account .modal .medium-header{
+    color:var(--blue);
+}
+.orders table{
+    min-width:850px;
+}
+.orders table .time-container{
+    width:150px;
+}
+.orders table .table-btn{
+    width:70px;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+}
+table tbody tr td .description.descriptive-text{
+    color:#ff004f;
+    font-weight:600;
+}

@@ -1,0 +1,12 @@
+.orders.account.revision .submit-orders.account.modal {
+  flex-direction: column;
+  display: none;
+}
+.orders.account.revision .submit-orders.account.modal.active {
+  display: flex;
+}
+
+.orders.account.revision .container table tr .table-btn {
+  font-size: 10px;
+  font-weight: 700;
+}

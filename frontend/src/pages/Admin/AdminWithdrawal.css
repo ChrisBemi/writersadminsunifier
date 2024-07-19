@@ -1,0 +1,6 @@
+.admin.withdrawals .modal.pay-writer{
+    display:none;
+}
+.admin.withdrawals .modal.pay-writer.active{
+    display:flex;
+}
